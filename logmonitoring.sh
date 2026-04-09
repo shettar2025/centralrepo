@@ -9,5 +9,6 @@ if [ $ERROR_COUNT -gt $THRESHOLD ]; then
     echo "High number of errors detected: $ERROR_COUNT" 
     #| mail -s "Log Alert" $ALERT_EMAIL
 fi
+else
 
 
